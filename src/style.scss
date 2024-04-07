@@ -82,10 +82,11 @@ h4 {
     font-weight: 700;
     text-decoration: none;
   }
+}
 
-  .button-svg {
-    width: 1rem;
-  }
+.button-svg {
+  width: 1.5rem;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -144,4 +145,23 @@ h4 {
 }
 input {
   width: 20%;
+}
+
+.converter-input {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5rem 0;
+}
+
+.converter-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holidays {
+  margin: 0.5rem 0;
+  p {
+    margin: 0.5rem 0;
+  }
 }
